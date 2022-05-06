@@ -1,0 +1,227 @@
+<mvc:View
+    controllerName="yamaha.otc.manageusers.controller.Home"
+    	height="100%"
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:core="sap.ui.core"
+		xmlns:layout="sap.ui.layout"
+		xmlns="sap.m"
+		xmlns:f="sap.f"
+		xmlns:fb="sap.ui.comp.filterbar"
+		xmlns:vm="sap.ui.comp.variants">
+		<f:DynamicPage id="dynamicPageId" headerExpanded="{/headerExpanded}">
+			<!-- DynamicPage Title -->
+			<f:title>
+				<f:DynamicPageTitle>
+					<f:heading>
+						<vm:VariantManagement standardItemText="Manage Users">
+						</vm:VariantManagement>
+					</f:heading>
+					<!-- <f:actions>
+						<ToolbarSpacer/>
+						<Button
+								text="Global Action"
+								type="Transparent"/>
+						<Button
+								text="Toggle Footer"
+								type="Transparent"
+								press="onToggleFooter"/>
+						<Button
+								icon="sap-icon://action"
+								type="Transparent"/>
+					</f:actions> -->
+				</f:DynamicPageTitle>
+			</f:title>
+			<!-- DynamicPage Header -->
+			<f:header>
+				<f:DynamicPageHeader pinnable="true">
+					<f:content>
+						<fb:FilterBar id="filterbar" reset="onReset" search="onSearch" showRestoreButton="true" showClearButton="true">
+							<fb:filterGroupItems>
+                            <fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Sold-To Party" partOfCurrentVariant="true" visibleInFilterBar="true">
+					<fb:control>
+						<Input showValueHelp="true" ></Input>
+					</fb:control>
+				</fb:FilterGroupItem>
+								<!-- <fb:FilterGroupItem name="A" label="Sold-To Party"> -->
+									<!-- <fb:control> -->
+                                        
+										<!-- <Select
+										id="slName"
+										forceSelection="true"
+										change="onSelectChange"
+                                        >
+										<core:Item key="1" text="1234567 - Dealer 1" />
+                                        <core:Item key="2" text="9876543  - Dealer 2"/>
+                                        <core:Item key="3" text="XYZABC1  - Dealer 3"/>
+										</Select> -->
+									<!-- </fb:control>				 -->
+								<!-- </fb:FilterGroupItem>								 -->
+								<!-- <fb:FilterItem name="B" label="Category">
+									<fb:control>
+										<Select
+										id="slCategory"
+										change="onSelectChange"
+										forceSelection="true"
+										items="{
+                                                    path: '/ProductCategories'
+                                                 }">
+										<core:Item key="{key}" text="{name}"/>
+										</Select>
+									</fb:control>				
+								</fb:FilterItem>				
+								<fb:FilterItem name="C" label="SupplierName">
+									<fb:control>
+										<Select
+										id="slSupplierName"
+										change="onSelectChange"
+										forceSelection="true"
+										items="{
+                                                    path: '/ProductSuppliers'
+                                                }">
+										<core:Item key="{key}" text="{name}"/>
+										</Select>
+									</fb:control>				
+								</fb:FilterItem> -->
+							</fb:filterGroupItems>
+						</fb:FilterBar>
+					</f:content>
+				</f:DynamicPageHeader>
+			</f:header>
+
+			<!-- DynamicPage Content -->
+			<f:content>
+				<Table
+						id="idProductsTable"
+						inset="false"
+						>
+                    <headerToolbar>
+                    <OverflowToolbar >
+                    <ToolbarSpacer/>
+                    <Button text="Create"/>
+                    </OverflowToolbar>
+                    </headerToolbar>
+
+					<columns>
+						<Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="BTP ID"/>
+						</Column>
+						<Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="Admin"/>
+						</Column>
+						<Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="Buy Prod"/>
+						</Column>
+                        <Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="Buy Parts"/>
+						</Column>
+						<Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="View Inv."/>
+						</Column>
+                        <Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="Payment"/>
+						</Column>
+						<Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="Action"/>
+						</Column>
+					</columns>
+
+					<items>
+						<ColumnListItem
+								vAlign="Middle">
+							<cells>
+								
+								<Text text="abc@yamaha.com"/>
+								<core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <HBox > 
+                                    <!-- <core:Icon src="sap-icon://edit"></core:Icon> -->
+                                    <Button icon="sap-icon://edit" />
+                                    <Button icon="sap-icon://delete" class="sapUiSmallMarginBegin"/>
+                                    <!-- <core:Icon src="sap-icon://delete" class="sapUiSmallMarginBegin"></core:Icon> -->
+                                </HBox>
+                                
+							</cells>
+						</ColumnListItem>
+                        <ColumnListItem
+								vAlign="Middle">
+							<cells>
+								
+								<Text text="abc@yamaha.com"/>
+								<core:Icon src=""></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src=""></core:Icon>
+                                <HBox > 
+                                    <!-- <core:Icon src="sap-icon://edit"></core:Icon> -->
+                                    <Button icon="sap-icon://edit" />
+                                    <Button icon="sap-icon://delete" class="sapUiSmallMarginBegin"/>
+                                    <!-- <core:Icon src="sap-icon://delete" class="sapUiSmallMarginBegin"></core:Icon> -->
+                                </HBox>
+                                
+							</cells>
+						</ColumnListItem>
+                        <ColumnListItem
+								vAlign="Middle">
+							<cells>
+								
+								<Text text="abc@yamaha.com"/>
+								<core:Icon src=""></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src=""></core:Icon>
+                                <core:Icon src=""></core:Icon>
+                                <HBox > 
+                                    <!-- <core:Icon src="sap-icon://edit"></core:Icon> -->
+                                    <Button icon="sap-icon://edit" />
+                                    <Button icon="sap-icon://delete" class="sapUiSmallMarginBegin"/>
+                                    <!-- <core:Icon src="sap-icon://delete" class="sapUiSmallMarginBegin"></core:Icon> -->
+                                </HBox>
+                                
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</f:content>
+
+			<!-- DynamicPage Footer -->
+			<f:footer>
+				<OverflowToolbar>
+					<ToolbarSpacer/>
+					<Button type="Accept" text="Accept"/>
+					<Button type="Reject" text="Reject"/>
+				</OverflowToolbar>
+			</f:footer>
+		</f:DynamicPage>
+</mvc:View>
+    <!-- xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content />
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View> -->
