@@ -12,10 +12,10 @@
 			<!-- DynamicPage Title -->
 			<f:title>
 				<f:DynamicPageTitle>
-					<f:heading>
+					<!-- <f:heading>
 						<vm:VariantManagement standardItemText="Manage Users">
 						</vm:VariantManagement>
-					</f:heading>
+					</f:heading> -->
 					<!-- <f:actions>
 						<ToolbarSpacer/>
 						<Button
