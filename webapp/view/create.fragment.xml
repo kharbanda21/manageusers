@@ -3,7 +3,7 @@
 	xmlns:l="sap.ui.layout"
 	xmlns:f="sap.ui.layout.form"
 	xmlns:core="sap.ui.core">
-    <Dialog title="Edit User"> 
+    <Dialog title="Add New User"> 
     <!-- <HBox >
 	<VBox class="sapUiSmallMargin">
     <Label text="BTP ID" class="sapUiTinyMarginTop"/>
@@ -30,16 +30,16 @@
 			<f:content> -->
             <VBox class="sapUiSmallMargin">
             <HBox>
-				<Label text="Sold-To Party" class="sapUiTinyMarginTop  sapUiTinyMarginEnd" width="70px"/>
+				<Label text="Sold-To Party" wrapping="true" class="sapUiTinyMarginEnd" width="70px"/>
 				<!-- <Input> 
                 </Input> -->
                 <Text text="1234567 (Dealer 1)" />
              </HBox>
             <HBox>
 				<Label text="BTP ID" class="sapUiTinyMarginTop  sapUiTinyMarginEnd" width="70px"/>
-				<!-- <Input> 
-                </Input> -->
-                <Text text="abc@yamaha.com" />
+				<Input> 
+                </Input>
+                <!-- <Text text="abc@yamaha.com" /> -->
              </HBox> 
              <HBox>
 				<Label text="Admin" class="sapUiTinyMarginTop" width="70px"/>

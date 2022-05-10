@@ -39,7 +39,7 @@
 							<fb:filterGroupItems>
                             <fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Sold-To Party" partOfCurrentVariant="true" visibleInFilterBar="true">
 					<fb:control>
-						<Input showValueHelp="true" ></Input>
+						<Input showValueHelp="true" value="1234567"></Input>
 					</fb:control>
 				</fb:FilterGroupItem>
 								<!-- <fb:FilterGroupItem name="A" label="Sold-To Party"> -->
@@ -167,7 +167,7 @@
                         <ColumnListItem
 								vAlign="Middle">
 							<cells>
-								
+								<Text text="1234567 (Dealer 1)"/>
 								<Text text="abc@yamaha.com"/>
 								<core:Icon src=""></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
@@ -186,7 +186,7 @@
                         <ColumnListItem
 								vAlign="Middle">
 							<cells>
-								
+								<Text text="1234567 (Dealer 1)"/>
 								<Text text="xyz@yamaha.com"/>
 								<core:Icon src=""></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
