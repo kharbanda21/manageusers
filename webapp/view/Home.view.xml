@@ -198,7 +198,7 @@
                                 <core:Icon src=""></core:Icon>
                                 <HBox > 
                                     <!-- <core:Icon src="sap-icon://edit"></core:Icon> -->
-                                    <Button icon="sap-icon://edit" />
+                                    <Button icon="sap-icon://edit" press="onEdit"/>
                                     <Button icon="sap-icon://delete" class="sapUiSmallMarginBegin"/>
                                     <!-- <core:Icon src="sap-icon://delete" class="sapUiSmallMarginBegin"></core:Icon> -->
                                 </HBox>
