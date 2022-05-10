@@ -102,15 +102,16 @@
                     </headerToolbar>
 
 					<columns>
-                    <Column
-								minScreenWidth="Tablet"
-								demandPopin="true">
-							<Text text="Sold-To-Party"/>
-						</Column>
+                    
 						<Column
 								minScreenWidth="Tablet"
 								demandPopin="true">
 							<Text text="BTP ID"/>
+						</Column>
+                        <Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="Sold-To-Party"/>
 						</Column>
 						<Column
 								minScreenWidth="Tablet"
@@ -148,8 +149,9 @@
 						<ColumnListItem
 								vAlign="Middle">
 							<cells>
-								<Text text="1234567 (Dealer 1)"/>
+								
 								<Text text="asdf@yamaha.com"/>
+                                <Text text="1234567"/>
 								<core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
@@ -167,8 +169,8 @@
                         <ColumnListItem
 								vAlign="Middle">
 							<cells>
-								<Text text="1234567 (Dealer 1)"/>
 								<Text text="abc@yamaha.com"/>
+                                <Text text="1234567"/>
 								<core:Icon src=""></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
@@ -186,8 +188,9 @@
                         <ColumnListItem
 								vAlign="Middle">
 							<cells>
-								<Text text="1234567 (Dealer 1)"/>
+								
 								<Text text="xyz@yamaha.com"/>
+                                <Text text="1234567"/>
 								<core:Icon src=""></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
