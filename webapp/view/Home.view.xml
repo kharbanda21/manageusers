@@ -102,6 +102,11 @@
                     </headerToolbar>
 
 					<columns>
+                    <Column
+								minScreenWidth="Tablet"
+								demandPopin="true">
+							<Text text="Sold-To Party"/>
+						</Column>
 						<Column
 								minScreenWidth="Tablet"
 								demandPopin="true">
@@ -143,7 +148,7 @@
 						<ColumnListItem
 								vAlign="Middle">
 							<cells>
-								
+								<Text text="1234567 (Dealer 1)"/>
 								<Text text="asdf@yamaha.com"/>
 								<core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>

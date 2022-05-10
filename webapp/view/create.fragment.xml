@@ -30,6 +30,12 @@
 			<f:content> -->
             <VBox class="sapUiSmallMargin">
             <HBox>
+				<Label text="Sold-To Party" class="sapUiTinyMarginTop  sapUiTinyMarginEnd" width="70px"/>
+				<!-- <Input> 
+                </Input> -->
+                <Text text="1234567 (Dealer 1)" />
+             </HBox>
+            <HBox>
 				<Label text="BTP ID" class="sapUiTinyMarginTop  sapUiTinyMarginEnd" width="70px"/>
 				<!-- <Input> 
                 </Input> -->
