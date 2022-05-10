@@ -37,7 +37,7 @@
 					<f:content>
 						<fb:FilterBar id="filterbar" reset="onReset" search="onSearch" showRestoreButton="true" showClearButton="true">
 							<fb:filterGroupItems>
-                            <fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Sold-To Party" partOfCurrentVariant="true" visibleInFilterBar="true">
+                            <fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Sold-To-Party" partOfCurrentVariant="true" visibleInFilterBar="true">
 					<fb:control>
 						<Input showValueHelp="true" value="1234567"></Input>
 					</fb:control>
@@ -105,7 +105,7 @@
                     <Column
 								minScreenWidth="Tablet"
 								demandPopin="true">
-							<Text text="Sold-To Party"/>
+							<Text text="Sold-To-Party"/>
 						</Column>
 						<Column
 								minScreenWidth="Tablet"

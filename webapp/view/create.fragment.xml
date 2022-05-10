@@ -30,7 +30,7 @@
 			<f:content> -->
             <VBox class="sapUiSmallMargin">
             <HBox>
-				<Label text="Sold-To Party" wrapping="true" class="sapUiTinyMarginEnd" width="70px"/>
+				<Label text="Sold-To-Party" wrapping="true" class="sapUiTinyMarginEnd" width="70px"/>
 				<!-- <Input> 
                 </Input> -->
                 <Text text="1234567 (Dealer 1)" />
