@@ -46,7 +46,7 @@
 				<Label text="Admin" class="sapUiTinyMarginTop" width="70px"/>
 				<CheckBox ></CheckBox>
             </HBox>
-            <HBox>    
+            <!-- <HBox>    
 				<Label text="Buy Prod" class="sapUiTinyMarginTop" width="70px" />
 				<CheckBox ></CheckBox>
             </HBox>
@@ -61,7 +61,7 @@
             <HBox  >    
                 <Label text="Payment" class="sapUiTinyMarginTop" width="70px"/>
                 <CheckBox ></CheckBox>
-            </HBox>
+            </HBox> -->
             <HBox direction="RowReverse">
 		        <Button id="cancel" text="Cancel" press="onCloseDialog"/>
                 <Button id="save" text="Save" type="Emphasized" class="sapUiTinyMarginEnd"/>

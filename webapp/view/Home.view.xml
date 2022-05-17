@@ -108,17 +108,17 @@
 								demandPopin="true">
 							<Text text="BTP ID"/>
 						</Column>
-                        <Column
+                        <!-- <Column
 								minScreenWidth="Tablet"
 								demandPopin="true">
 							<Text text="Sold-To-Party"/>
-						</Column>
+						</Column> -->
 						<Column
 								minScreenWidth="Tablet"
 								demandPopin="true">
 							<Text text="Admin"/>
 						</Column>
-						<Column
+						<!-- <Column
 								minScreenWidth="Tablet"
 								demandPopin="true">
 							<Text text="Buy Prod"/>
@@ -137,7 +137,7 @@
 								minScreenWidth="Tablet"
 								demandPopin="true">
 							<Text text="Payment"/>
-						</Column>
+						</Column> -->
 						<Column
 								minScreenWidth="Tablet"
 								demandPopin="true">
@@ -151,12 +151,12 @@
 							<cells>
 								
 								<Text text="asdf@yamaha.com"/>
-                                <Text text="1234567"/>
+                                <!-- <Text text="1234567"/> -->
 								<core:Icon src="sap-icon://accept"></core:Icon>
+                                <!-- <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
-                                <core:Icon src="sap-icon://accept"></core:Icon>
-                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <core:Icon src="sap-icon://accept"></core:Icon> -->
                                 <HBox > 
                                     <!-- <core:Icon src="sap-icon://edit"></core:Icon> -->
                                     <Button icon="sap-icon://edit" />
@@ -170,12 +170,12 @@
 								vAlign="Middle">
 							<cells>
 								<Text text="abc@yamaha.com"/>
-                                <Text text="1234567"/>
-								<core:Icon src=""></core:Icon>
+                                <!-- <Text text="1234567"/> -->
+								<core:Icon src="sap-icon://accept"></core:Icon>
+                                <!-- <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
-                                <core:Icon src="sap-icon://accept"></core:Icon>
-                                <core:Icon src=""></core:Icon>
+                                <core:Icon src=""></core:Icon> -->
                                 <HBox > 
                                     <!-- <core:Icon src="sap-icon://edit"></core:Icon> -->
                                     <Button icon="sap-icon://edit" />
@@ -190,12 +190,12 @@
 							<cells>
 								
 								<Text text="xyz@yamaha.com"/>
-                                <Text text="1234567"/>
+                                <!-- <Text text="1234567"/> -->
 								<core:Icon src=""></core:Icon>
-                                <core:Icon src="sap-icon://accept"></core:Icon>
+                                <!-- <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src="sap-icon://accept"></core:Icon>
                                 <core:Icon src=""></core:Icon>
-                                <core:Icon src=""></core:Icon>
+                                <core:Icon src=""></core:Icon> -->
                                 <HBox > 
                                     <!-- <core:Icon src="sap-icon://edit"></core:Icon> -->
                                     <Button icon="sap-icon://edit" press="onEdit"/>
