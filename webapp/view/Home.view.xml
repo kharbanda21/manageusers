@@ -33,9 +33,13 @@
 			</f:title>
 			<!-- DynamicPage Header -->
 			<f:header>
-				<f:DynamicPageHeader pinnable="true">
+				<f:DynamicPageHeader pinnable="false" >
 					<f:content>
-						<fb:FilterBar id="filterbar" reset="onReset" search="onSearch" showRestoreButton="true" showClearButton="true">
+                        <VBox >
+                        <Label text="Sold-To-Party" design="Bold"></Label>
+                        <Text text="YYYY Music (1234567)"></Text>
+                        </VBox>
+						<fb:FilterBar id="filterbar" reset="onReset" search="onSearch" showRestoreButton="true" showClearButton="true" visible="false">
 							<fb:filterGroupItems>
                             <fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Sold-To-Party" partOfCurrentVariant="true" visibleInFilterBar="true">
 					<fb:control>
@@ -97,7 +101,7 @@
                     <headerToolbar>
                     <OverflowToolbar >
                     <ToolbarSpacer/>
-                    <Button text="Create" press="onCreate"/>
+                    <Button text="Create" press="onCreate" visible="false"/>
                     </OverflowToolbar>
                     </headerToolbar>
 
@@ -140,7 +144,7 @@
 						</Column> -->
 						<Column
 								minScreenWidth="Tablet"
-								demandPopin="true">
+								demandPopin="true" visible="false">
 							<Text text="Action"/>
 						</Column>
 					</columns>
